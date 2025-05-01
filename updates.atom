@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://windhawk.net/</id>
+    <title>Windhawk Mod Updates</title>
+    <updated>2025-04-30T21:54:52.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://windhawk.net/"/>
+    <subtitle>Updates in the official collection of Windhawk mods</subtitle>
+    <icon>https://windhawk.net/favicon.ico</icon>
+    <rights>Ramen Software</rights>
+    <entry>
+        <title type="html"><![CDATA[Edge Hot-Corners Desktop Switch 0.2]]></title>
+        <id>https://windhawk.net/mods/edge-hot-corner-desktop-switch#35d83479873db11a4a1b538ad1eb5a044c4355f5</id>
+        <link href="https://windhawk.net/mods/edge-hot-corner-desktop-switch"/>
+        <updated>2025-04-30T21:54:52.000Z</updated>
+        <content type="html"><![CDATA[<p>Initial release.</p>]]></content>
+        <author>
+            <name>Sanskar Prasad</name>
+            <uri>https://github.com/sanskarprasad</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open pinned items with double click 1.0.2]]></title>
+        <id>https://windhawk.net/mods/pinned-items-double-click#e592dd67b1e1d8b5715ef9d333ade8086ff75581</id>
+        <link href="https://windhawk.net/mods/pinned-items-double-click"/>
+        <updated>2025-04-28T21:04:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added support for the ExplorerPatcher taskbar.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShadowPlay Save Folder Override 1.1]]></title>
+        <id>https://windhawk.net/mods/shadowplay-single-folder#8c63a08f1a5c540f9061b4a896dfdf18a0bcd843</id>
+        <link href="https://windhawk.net/mods/shadowplay-single-folder"/>
+        <updated>2025-04-26T15:03:26.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="shadowplaysavefolderoverride">ShadowPlay Save Folder Override</h1>
+<p>This hooks into Nvidia ShadowPlay's file creation to redirect all saved clips
+into a single folder (e.g., C:\Users\USER\Videos), instead of separate folders for each game or source.</p>]]></content>
+        <author>
+            <name>yuma-dev</name>
+            <uri>https://github.com/yuma-dev</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Force Chinese IME Mode Legacy 1.0.2]]></title>
+        <id>https://windhawk.net/mods/force-chinese-ime#7a9e5d9416a2bd1dff010f26d9eec6e2f02d8ba5</id>
+        <link href="https://windhawk.net/mods/force-chinese-ime"/>
+        <updated>2025-04-24T17:28:00.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Mark force-chinese-ime as deprecated</li>
+</ul>]]></content>
+        <author>
+            <name>u3l6</name>
+            <uri>https://github.com/u3l6</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UXTheme hook 1.3]]></title>
+        <id>https://windhawk.net/mods/uxtheme-hook#f72d105e2420a3d9145edf8ce3756f12cd0dce0c</id>
+        <link href="https://windhawk.net/mods/uxtheme-hook"/>
+        <updated>2025-04-23T08:11:24.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Prevent launching settings on theme apply</li>
+<li>Fix SetSysColors hook, by getting the value from registry</li>
+<li>Update FAQ</li>
+</ul>]]></content>
+        <author>
+            <name>rounk-ctrl</name>
+            <uri>https://github.com/rounk-ctrl</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CEF/Spotify Tweaks 0.9]]></title>
+        <id>https://windhawk.net/mods/cef-titlebar-enabler-universal#1d248fdd4964e037fc00cb9799cd5fb55fe92f77</id>
+        <link href="https://windhawk.net/mods/cef-titlebar-enabler-universal"/>
+        <updated>2025-04-20T14:49:03.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Add support for Spotify 1.2.62</li>
+<li>Fix the <code>query()</code> API function not getting the latest option changes</li>
+<li>Now this mod uses a more proper way of changing the minimum window size</li>
+<li>JavaScript <code>window.resizeTo()</code> should work fine for smaller sizes, and the resize cursor should always be shown when hovering over window borders</li>
+<li>As a result, this feature no longer works on Spotify versions older than 1.1.71</li>
+</ul>]]></content>
+        <author>
+            <name>Ingan121</name>
+            <uri>https://github.com/Ingan121</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese IME fixed mode 1.0.4]]></title>
+        <id>https://windhawk.net/mods/chinese-ime-fixed-mode#52dd9956bf33a98494b675899e959a6aaf4f16ce</id>
+        <link href="https://windhawk.net/mods/chinese-ime-fixed-mode"/>
+        <updated>2025-04-19T15:56:10.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="forcechineseimemode">Force Chinese IME Mode | 强制中文输入法</h1>
+<h2 id="baseonhttpswindhawknetmodsforcechineseimev101">base on https://windhawk.net/mods/force-chinese-ime v1.0.1</h2>
+<p>set<em>IME</em>mode trigger by MSUIM.Msg.Private</p>
+<h2 id="feature">Feature | 功能</h2>
+<p>This mod forces the Microsoft Pinyin IME to stay in Chinese input mode, preventing unwanted mode switches.<br />
+这个 mod 强制微软拼音输入法保持在中文输入模式，防止出现不必要的模式切换。</p>
+<h3 id="before">Before | 使用前</h3>
+<p>The input mode often switches irregular while using Microsoft Pinyin IME.<br />
+使用微软拼音输入法时输入模式经常无规则切换。</p>
+<h3 id="after">After | 使用后</h3>
+<p>It can ensure that when using the Microsoft Pinyin IME, English will never be entered using the input box.<br />
+可以确保在微软拼音输入法的时候，使用输入框永远不会输入英文。</p>]]></content>
+        <author>
+            <name>barry</name>
+            <uri>https://github.com/barrypp</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Better file sizes in Explorer details 1.4.9]]></title>
+        <id>https://windhawk.net/mods/explorer-details-better-file-sizes#7ae6bca49f773eef9966ceedc8e9e2495f896463</id>
+        <link href="https://windhawk.net/mods/explorer-details-better-file-sizes"/>
+        <updated>2025-04-15T20:43:57.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added support for long paths.</li>
+<li>Reduced footprint for processes which never use a file list control.</li>
+<li>Reduced footprint if "Everything" 1.4 isn't used. That's yet another reason to switch to <a href="https://www.voidtools.com/forum/viewtopic.php?t=9787">"Everything" 1.5 Alpha</a>, which is also about 20x faster at size query operations. Despite the "Alpha" label, it's stable for daily use according to users' feedback and my own experience.</li>
+<li>Fixed a crash in 32-bit programs when the "Use IEC terms" option is enabled and the "Use MB/GB for large files" option isn't enabled.</li>
+<li>Fixed Everything hanging in some cases if its executable name is Everything64.exe and not Everything.exe.</li>
+<li>Fixed slow file list loading when browsing slow network share folders.</li>
+<li>Fixed Explorer showing incorrect operation sizes in some cases, such as when extracting files from a 7-Zip archive.</li>
+</ul>]]></content>
+        <author>
+            <name>m417z</name>
+            <uri>https://github.com/m417z</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 7/8.x Alt+Tab Loader 2.1.0]]></title>
+        <id>https://windhawk.net/mods/win7-alttab-loader#c3ac7043865e3f5ae95949ebe5d1b3ce81db8cde</id>
+        <link href="https://windhawk.net/mods/win7-alttab-loader"/>
+        <updated>2025-04-15T07:38:32.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Remove the <code>LoadStringW</code> hook hack. Users must now supply an MUI file.</li>
+<li>Add error message boxes for AltTab.dll or its string resources failing to load.</li>
+<li>Support Windows 8.x's AltTab.dll</li>
+<li>Change mod name to reflect this</li>
+<li>Slightly revise README to be more clear and accurate</li>
+</ul>]]></content>
+        <author>
+            <name>aubymori</name>
+            <uri>https://github.com/aubymori</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translucent Windows 1.4.2]]></title>
+        <id>https://windhawk.net/mods/translucent-windows#afa6754ba136a6adbf459f0386bc7f13c68a707c</id>
+        <link href="https://windhawk.net/mods/translucent-windows"/>
+        <updated>2025-04-14T23:17:02.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Apply a workaround solution for background effects in windows Game Bar transparent overlay </li>
+<li>Limit mod unloading to appropriate windows, fixes a bug during BlurBehind effect unloading</li>
+</ul>]]></content>
+        <author>
+            <name>Undisputed00x</name>
+            <uri>https://github.com/Undisputed00x</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[File Explorer Toolbar Links Item 1.1.1]]></title>
+        <id>https://windhawk.net/mods/explorer-toolbar-links-item#5e2643ce30dbd3e7f47f4b9f68693bc8b125cd93</id>
+        <link href="https://windhawk.net/mods/explorer-toolbar-links-item"/>
+        <updated>2025-04-11T02:41:49.000Z</updated>
+        <content type="html"><![CDATA[<p>Injection broke in a patch update to 26100. 26100 RTM, as well as all prior Windows 11 builds, are just fine.</p>
+<p>The method <code>CShellBrowser::_OnViewMenuPopup</code>, as well as its sole caller <code>_OnInitMenuPopup</code>, were inlined into the sole caller <code>WndProcBS</code>. As an easy workaround, I simply hooked the window procedure and checked the arguments in the same way as would result in calling <code>_OnInitMenuPopup</code>, which produces the same effect.</p>
+<p>No other changes were made for this update.</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translucent Windows 1.4.1]]></title>
+        <id>https://windhawk.net/mods/translucent-windows#6d80a4ec94be318d3dfafdf9ef0b0f0b80185222</id>
+        <link href="https://windhawk.net/mods/translucent-windows"/>
+        <updated>2025-04-10T21:09:01.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix bug where previously both window states colors were needed to apply color effects</li>
+<li>Added a workaround solution for unloading the BlurBehind effect</li>
+<li>Added default color option support</li>
+</ul>]]></content>
+        <author>
+            <name>Undisputed00x</name>
+            <uri>https://github.com/Undisputed00x</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translucent Windows 1.4]]></title>
+        <id>https://windhawk.net/mods/translucent-windows#3af9d8212ade28ef23003557cbd9ad77db77acf2</id>
+        <link href="https://windhawk.net/mods/translucent-windows"/>
+        <updated>2025-04-10T11:01:04.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Added color options for active and inactive window states</li>
+<li>Merge taskbar thumbnails border coloring with classic context menus setting</li>
+</ul>]]></content>
+        <author>
+            <name>Undisputed00x</name>
+            <uri>https://github.com/Undisputed00x</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Favorites in Navigation Pane 1.0.1]]></title>
+        <id>https://windhawk.net/mods/favorites-in-navpane#10f1463d8bd2609b6278c5c548c58a1ed8ffcd98</id>
+        <link href="https://windhawk.net/mods/favorites-in-navpane"/>
+        <updated>2025-04-07T16:23:33.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix memory leak</li>
+<li>Make sure to close registry key</li>
+</ul>]]></content>
+        <author>
+            <name>xalejandro</name>
+            <uri>https://github.com/tetawaves</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[File Explorer Toolbar Links Item 1.1]]></title>
+        <id>https://windhawk.net/mods/explorer-toolbar-links-item#94bda638328d60ba4b4d259215bf791a9b69108d</id>
+        <link href="https://windhawk.net/mods/explorer-toolbar-links-item"/>
+        <updated>2025-04-07T10:45:06.000Z</updated>
+        <content type="html"><![CDATA[<p>This update adds support for WoW64 (unfortunately, 32-bit Windows 10 seems
+to ignore the symbol hooks), fixes a crash in Windows 11, and improves the
+user experience.</p>
+<p>The Links toolbar can now be enabled through "Options" dropdown in the View
+tab when using the Ribbon UI, like other toolbars can:</p>
+<p>https://raw.githubusercontent.com/kawapure/images/refs/heads/main/linksbar_ribbon.png</p>
+<p>Additionally, the toolbars menu now always appears in the views menu of the
+menu bar when the classic Explorer interface is enabled:</p>
+<p>https://raw.githubusercontent.com/kawapure/images/refs/heads/main/linksbar<em>views</em>menu.png</p>
+<p>All in all, these changes make the necessarily-hacky menu item show up in
+all the right places and behave just the same as any other toolbar option
+does.</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translucent Windows 1.3]]></title>
+        <id>https://windhawk.net/mods/translucent-windows#901ab88551bbba9ff79f8e1b8e7e5aeb29edb982</id>
+        <link href="https://windhawk.net/mods/translucent-windows"/>
+        <updated>2025-04-07T10:33:36.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Add rules for processes</li>
+<li>Fix Control Panel title bar text color not being applied when using Acrylic Blur Behind</li>
+<li>Fix Snipping Tool not being affected by mod</li>
+</ul>]]></content>
+        <author>
+            <name>Undisputed00x</name>
+            <uri>https://github.com/Undisputed00x</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[File Explorer Toolbar Links Item 1.0.1]]></title>
+        <id>https://windhawk.net/mods/explorer-toolbar-links-item#a432147b52de3b822a673d6750654548de8d2f92</id>
+        <link href="https://windhawk.net/mods/explorer-toolbar-links-item"/>
+        <updated>2025-04-06T08:16:04.000Z</updated>
+        <content type="html"><![CDATA[<p>Fixed a minor injection issue that some users may experience.</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[File Explorer Toolbar Links Item 1.0]]></title>
+        <id>https://windhawk.net/mods/explorer-toolbar-links-item#d4f6575790261ab1b1d13b62ca3fc879a42a4776</id>
+        <link href="https://windhawk.net/mods/explorer-toolbar-links-item"/>
+        <updated>2025-04-05T19:58:51.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="fileexplorertoolbarlinksitem">File Explorer Toolbar Links Item</h1>
+<p>This mod restores the ability to display the "Links" toolbar, hidden since Windows Vista, in Windows 10 and 11.</p>
+<p>The links toolbar can be used to provide a custom set of quick links that the user can access across the top of
+any File Explorer window.</p>
+<p><img src="https://raw.githubusercontent.com/kawapure/images/refs/heads/main/linksbar.png" alt="Preview image" /></p>
+<h2 id="whatsthedifferencebetweenthisandsomeregistrypatch">What's the difference between this and some registry patch?</h2>
+<p>This restores the actual hidden Links toolbar with all of its special handlers. <strong>It functions perfectly</strong>, just like
+it did in Windows 98, 2000, and XP. For a technical explanation, <a href="https://winclassic.net/thread/2913/explorer-toolbar-funtional-modern-windows">please see this thread on WinClassic.</a></p>
+<p>Adding the CLSID for the toolbar will install it as an external toolbar, which has a few bugs. You cannot reorder
+items, or drag items into it, and its vertical height was uncapped so it was prone to looking visually broken.</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[System Properties "General" Tab 1.1]]></title>
+        <id>https://windhawk.net/mods/sysdm-general-tab#9d6927c8478d7af98c180d73cbe4fec020df474a</id>
+        <link href="https://windhawk.net/mods/sysdm-general-tab"/>
+        <updated>2025-04-02T15:19:40.000Z</updated>
+        <content type="html"><![CDATA[<p>This update makes process creation abide by the contract Windhawk sets.</p>
+<p>It is not guaranteed for process-creation hooks to be installed during the execution of Wh<em>ModInit. Sometimes they are available, but the contract states that they should only be considered as available starting from Wh</em>ModAfterInit.</p>
+<p>https://github.com/ramensoftware/windhawk/wiki/Mod-lifetime</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[System Properties "General" Tab 1.0]]></title>
+        <id>https://windhawk.net/mods/sysdm-general-tab#61e7bed5c756991ab03e58a4542c71d8d864b5a4</id>
+        <link href="https://windhawk.net/mods/sysdm-general-tab"/>
+        <updated>2025-04-02T14:01:30.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="systempropertiesgeneraltab">System Properties "General" Tab</h1>
+<p>This mod restores the "General" tab displaying system information in the system properties
+Control Panel applet (<code>sysdm.cpl</code>).</p>
+<h1 id="previewimagehttpsrawgithubusercontentcomkawapureimagesrefsheadsmaine784a1e9a18cpng"><img src="https://raw.githubusercontent.com/kawapure/images/refs/heads/main/%E7%84%A1%E9%A1%8C.png" alt="Preview image" /></h1>
+<h2 id="requiredsetupsteps">⚠ Required setup steps</h2>
+<p><strong>You need to retrieve a copy of <code>sysdm.cpl</code> from Windows XP or Windows 2000 in order for the
+dialog to show up correctly.</strong> This mod requires resources available only in those binaries,
+and those cannot be redistributed. It is recommended that you retrieve the files from a version
+of Windows which is the same language as what you currently have installed for display consistency.</p>]]></content>
+        <author>
+            <name>Isabella Lulamoon (kawapure)</name>
+            <uri>https://github.com/kawapure</uri>
+        </author>
+    </entry>
+</feed>
